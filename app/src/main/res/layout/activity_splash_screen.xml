@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="activity.SplashScreenActivity"
+    android:background="@color/colorPrimary">
+<ImageView
+    android:id="@+id/imgSplashicon"
+    android:layout_width="200dp"
+    android:layout_height="200dp"
+    android:src="@drawable/splashicon"
+    android:layout_centerInParent="true"/>
+    <TextView
+        android:id="@+id/txtSplashtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:textSize="25sp"
+        android:text="@string/foodie_zone"
+        android:drawableStart="@drawable/ic_food"
+        android:layout_below="@id/imgSplashicon"
+        />
+  <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="true"
+    android:textColor="#fff"
+    android:textStyle="italic"
+    android:textSize="20sp"
+    android:text="Welcomes you"
+      android:layout_marginTop="20dp"
+      android:layout_below="@id/txtSplashtext"
+
+    />
+</RelativeLayout>
